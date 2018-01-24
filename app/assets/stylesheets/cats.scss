@@ -1,0 +1,109 @@
+// Place all the styles related to the Cats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.my-icons {
+  width: 20px;
+  height: auto;
+  margin: 8px;
+  margin-bottom: 15px;
+}
+
+.abril {
+  font-family: 'Abril Fatface';
+
+}
+
+.title {
+ font-size: 4em;
+ letter-spacing: -2.5px;
+}
+.america {
+ letter-spacing: 2.2px;
+ font-weight: bold;
+ margin-bottom: -38px;
+ margin-left: 25px;
+ font-family: 'Raleway';
+
+}
+
+.title-div {
+ display: inline-block;
+}
+
+.cats {
+ height: 70px;
+ width: auto;
+ display: inline-block;
+ margin-top: -30px;
+}
+
+.content {
+ margin-top: 80px;
+}
+.cat-name {
+  font-size: 1.7em;
+  color: black;
+}
+
+.cat-name:hover {
+  text-decoration: none;
+  color: hotpink;
+}
+
+.cat-pic {
+  height: 350px;
+  width: 350px;
+}
+
+.center {
+ float: none;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#icon-div {
+ height: 60px;
+ width: 180px;
+ margin: 0 auto;
+}
+.cat-pic-big {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+
+.pink {
+  color: hotpink;
+}
+
+
+.my-nav {
+ background: white;
+ box-shadow: 1px 1px 2px lightgrey;
+}
+.my-button {
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 20px;
+  color: dimgrey;
+  margin-right: 10px;
+}
+
+.my-button:hover {
+  text-decoration: none;
+  color: black;
+  background: hotpink;
+}
+
+#rotate-thumb {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+
+.margin {
+margin-left: 15px;
+}

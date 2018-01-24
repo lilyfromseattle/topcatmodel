@@ -1,0 +1,19 @@
+<%= form_for @cat, url: {action:obj} do |f| %>
+
+  <%= f.label :name, "Cat Name:" %>
+  <%= f.text_field :name %>
+  <%= render "shared/error_messages", obj: @cat, col: :name %>
+
+  <%= f.label :url, "Photo URL:" %>
+  <%= f.text_field :url %>
+  <%= render "shared/error_messages", obj: @cat, col: :url %>
+
+  <%= f.label :description, "Description:" %>
+  <%= f.text_field :description %>
+  <%= render "shared/error_messages", obj: @cat, col: :description %>
+
+  <%= f.hidden_field :rank, :value => 0 %>
+
+<%= f.submit %>
+
+<% end %>

@@ -1,0 +1,15 @@
+<div class = "container my-pages">
+<h2 class = "text-center abril"><%= @cat.name %></h2>
+<%= image_tag "#{@cat.url}", :class => "img-responsive cat-pic-big" %>
+<h3 class = "text-center pink abril">Rank: <%= @cat.rank %></h3>
+<p class = "text-center"><%= @cat.description %></p>
+<div id = "icon-div">
+  <img><%= link_to image_tag("edit.png", :class => "my-icons"), "/cats/#{@cat.id}/edit" %></img>
+  <img><%= link_to image_tag("trash.png", :class => "my-icons"), "/cats/destroy/#{@cat.id}" %></img>
+  <img><%= link_to image_tag("thumb.png", :class => "my-icons"), "/cats/upvote/#{@cat.id}" %></img>
+  <img><%= link_to image_tag("thumb.png", :class => "my-icons", :id => "rotate-thumb"), "/cats/downvote/#{@cat.id}" %></p>
+</div>
+<div class = "text-center">
+<td><%= link_to "View All Cats", cats_path, :class => "my-button abril" %></td>
+</div>
+</div>

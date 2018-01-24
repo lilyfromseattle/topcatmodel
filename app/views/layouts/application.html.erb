@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>America's Next Top Cat Model</title>
+  <%= stylesheet_link_tag "http://yandex.st/bootstrap/3.0.2/css/bootstrap.min.css", media: "all" %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag "http://yandex.st/bootstrap/3.0.2/js/bootstrap.min.js" %>
+
+  <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top my-nav">
+    <div class="container">
+      <%= image_tag "cat3.png", :class => "cats" %>
+      <div class = "title-div">
+      <p class = "america">AMERICA'S NEXT</p>
+      <h1 class = "title abril">top <span class = "pink">cat</span> model</h1>
+    </div>
+      <%= image_tag "cat1.png", :class => "cats" %>
+      <%= image_tag "cat2.png", :class => "cats" %>
+
+    </div>
+  </nav>
+
+<div class= "content">
+<%= yield %>
+</div>
+</body>
+</html>

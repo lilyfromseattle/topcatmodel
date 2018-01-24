@@ -1,0 +1,24 @@
+<div class = "container my-pages">
+<div class = "container-fluid">
+  <table class = "table table-condensed">
+    <thead>
+    </thead>
+    <tbody>
+      <% @cats.each do |cat| %>
+        <tr class = "row">
+          <td><%= link_to image_tag("paw.png", :class => "my-icons"), "/cats/upvote/#{cat.id}" %></td>
+          <td class = "cat-name pink abril"><%= cat.rank %></td>
+          <td><%= link_to image_tag("paw.png", :class => "my-icons margin", :id => "rotate-thumb"), "/cats/downvote/#{cat.id}" %></td>
+          <td><%= link_to cat.name, "/cats/show/#{cat.id}", :class => "cat-name abril" %></td>
+          <td><%= image_tag "#{cat.url}", :class => "cat-pic" %></td>
+        </tr>
+        <tr>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+<div class = "container col-xs-12 text-center">
+<%= link_to "New Cat", new_cat_path, :class => "my-button abril"%>
+</div>
+</div>
