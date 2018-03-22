@@ -1,0 +1,141 @@
+/* line 5, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.my-icons {
+  width: 20px;
+  height: auto;
+  margin: 8px;
+  margin-bottom: 15px;
+}
+
+/* line 12, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.abril {
+  font-family: 'Abril Fatface';
+}
+
+/* line 17, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.title {
+  font-size: 4em;
+  letter-spacing: -2.5px;
+}
+
+/* line 21, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.america {
+  letter-spacing: 2.2px;
+  font-weight: bold;
+  margin-bottom: -38px;
+  margin-left: 25px;
+  font-family: 'Raleway';
+}
+
+/* line 30, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.title-div {
+  display: inline-block;
+}
+
+/* line 34, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.cats {
+  height: 70px;
+  width: auto;
+  display: inline-block;
+  margin-top: -30px;
+}
+
+/* line 41, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.content {
+  margin-top: 80px;
+}
+
+/* line 44, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.cat-name {
+  font-size: 1.7em;
+  color: black;
+}
+
+/* line 49, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.cat-name:hover {
+  text-decoration: none;
+  color: hotpink;
+}
+
+/* line 54, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.cat-pic {
+  height: 350px;
+  width: 350px;
+}
+
+/* line 59, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 65, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+#icon-div {
+  height: 60px;
+  width: 180px;
+  margin: 0 auto;
+}
+
+/* line 70, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.cat-pic-big {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* line 78, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.pink {
+  color: hotpink;
+}
+
+/* line 83, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.my-nav {
+  background: white;
+  box-shadow: 1px 1px 2px lightgrey;
+}
+
+/* line 87, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.my-button {
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 20px;
+  color: dimgrey;
+  margin-right: 10px;
+}
+
+/* line 95, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.my-button:hover {
+  text-decoration: none;
+  color: black;
+  background: hotpink;
+}
+
+/* line 101, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+#rotate-thumb {
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+
+/* line 107, /Users/lilypace/catmodel2/app/assets/stylesheets/cats.scss */
+.margin {
+  margin-left: 15px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
